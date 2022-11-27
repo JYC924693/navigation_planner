@@ -28,8 +28,6 @@
     <rosparam file="$(find zm_robot_navigation)/param/global_costmap_params.yaml" command="load" />
     <rosparam file="$(find zm_robot_navigation)/param/move_base_params.yaml" command="load" />
     <rosparam file="$(find pathfollow_local_planner)/param/pathfollow_local_planner_params.yaml" command="load" />
-    <remap from="cmd_vel" to="$(arg cmd_vel_topic)"/>
-    <remap from="odom" to="$(arg odom_topic)"/>
   </node>
 ```
 
