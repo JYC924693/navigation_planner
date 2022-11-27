@@ -2,20 +2,19 @@ PathFollowLocalPlanner:
   
   map_frame: "map"
   heading_lookahead: 0.3
-
 # Robot Configuration Parameters
-  max_linear_vel:  0.5
-  min_linear_vel: -0.5
+  max_linear_vel:  0.2
+  min_linear_vel:  0.01
   acc_linear_vel:  0.2
 
-  max_vel_theta:  0.5
+  max_vel_theta:  1.0
   min_vel_theta: -0.5
-  acc_vel_theta:  0.2
+  acc_vel_theta:  1.0
 
 # Goal Tolerance Parametes
-  xy_goal_tolerance: 0.1
-  yaw_goal_tolerance: 0.1
-  yaw_moving_tolerance: 0.5
+  xy_goal_tolerance: 0.05
+  yaw_goal_tolerance: 0.03
+  yaw_moving_tolerance: 0.03
 
 # TF transform timeout
   timeout: 0.5
