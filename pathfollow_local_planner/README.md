@@ -15,14 +15,6 @@
 
 ## Getting Started
 
-### Installation
-
-- Download pathfollow_local_planner github link.
-
-``` bash
-$ git clone -b diff https://github.com/qaz9517532846/pathfollow_local_planner.git
-```
-
 ### Run
 
 - pathfollow_local_planner add to move_base.launch file.
