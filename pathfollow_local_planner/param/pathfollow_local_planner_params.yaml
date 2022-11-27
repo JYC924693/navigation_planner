@@ -1,0 +1,21 @@
+PathFollowLocalPlanner:
+  
+  map_frame: "map"
+  heading_lookahead: 0.3
+
+# Robot Configuration Parameters
+  max_linear_vel:  0.5
+  min_linear_vel: -0.5
+  acc_linear_vel:  0.2
+
+  max_vel_theta:  0.5
+  min_vel_theta: -0.5
+  acc_vel_theta:  0.2
+
+# Goal Tolerance Parametes
+  xy_goal_tolerance: 0.1
+  yaw_goal_tolerance: 0.1
+  yaw_moving_tolerance: 0.5
+
+# TF transform timeout
+  timeout: 0.5

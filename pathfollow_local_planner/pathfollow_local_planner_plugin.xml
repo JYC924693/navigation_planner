@@ -1,0 +1,7 @@
+<library path="lib/libpathfollow_local_planner">
+  <class name="pathfollow_local_planner/PathFollowLocalPlanner" type="pathfollow_local_planner::PathFollowLocalPlanner" base_class_type="nav_core::BaseLocalPlanner">
+    <description>
+      A simple local planner for omnidirectional robot
+    </description>
+  </class>
+</library>
