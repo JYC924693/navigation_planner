@@ -17,6 +17,14 @@
 
 ### Run
 
+* `move_base_params.yaml`modify
+
+```bash
+base_local_planner: "pathfollow_local_planner/PathFollowLocalPlanner"
+```
+
+
+
 - pathfollow_local_planner add to move_base.launch file.
 
 ``` bash
@@ -42,5 +50,3 @@
 ------
 
 This repository is for your reference only. copying, patent application, academic journals are strictly prohibited.
-
-Copyright © 2021 ZM Robotics Software Laboratory.
